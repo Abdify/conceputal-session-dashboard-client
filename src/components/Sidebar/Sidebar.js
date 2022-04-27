@@ -14,12 +14,12 @@ const sidebarRoutes = [
   {
     path: "/add",
     name: "Add Product",
-    icon: "🥗"
+    icon: "➕"
   },
 ]
 
 export default function Sidebar() {
-  console.log("rendering")
+  
   return (
     <aside
       className="md:w-1/6 md:h-screen shadow-lg shadow-gray-400 bg-gray-50 dark:bg-gray-800"
